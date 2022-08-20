@@ -1,7 +1,13 @@
-// Arrays stores items through indexes starting from 0
 const colors = ["blue", "red", "yellow"]
+//console.log(colors)
+//add  element
+colors.push("brown")
+// start from 0 inclusive 3
+console.log(colors.slice(0,3))
 
-// What does this print?
-console.log(colors[0])
+console.log(colors.indexOf('red'))
 
-// How can we console log yellow from the array?
+console.log(colors.length)
+
+
+// so array method akhay yassine is : push - slice - indexOf - length
