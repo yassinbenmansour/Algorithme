@@ -11,3 +11,23 @@ let person = {
 console.log(person.name)
 
 // How would you print the persons age?
+
+
+
+
+// object person => name , eyecolor
+
+const intro = (name, eyecolor) => {
+  const person = {
+    name: name,
+    eyecolor: eyecolor,
+    money: 1000000,
+    tchirt: "black",
+  }
+
+  const description = 'hi my name is ' + person.name + ' and color of my eyes is ' + person.eyecolor + ' and my bank money is $' + person.money + ' USD'
+
+  return description
+}
+
+console.log(intro("yassine", 'brown'))
