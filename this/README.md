@@ -3,6 +3,7 @@ When defined as a method of an object, in a regular function this refers to the 
 
 
 const car = {
+
   model: 'Fiesta',
   manufacturer: 'Ford',
   fullName: function() {
